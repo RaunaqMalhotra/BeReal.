@@ -4,7 +4,7 @@ Submitted by: **Raunaq Malhotra**
 
 **BeReal!** is an iOS app that lets you log in and upload pictures while also allowing you to view other users' posts! It's a sort of a clone of the actual BeReal app. Have fun and enjoy browsing pictures!
 
-Time spent: **8** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Users can view the date of the picture uploaded!
+- [x] Users can view the date of the picture uploaded
 
 ## Video Walkthrough
 
@@ -35,11 +35,11 @@ Here's a walkthrough of implemented user stories:
 <img src='http://g.recordit.co/ywCkzfUaFy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with [RecordIt] for MacOS
+GIF created with [RecordIt] (https://recordit.co) for MacOS
 
 ## Notes
 
-Setting the constraints was the biggest challenge yet again.
+Setting the constraints was the biggest challenge yet again. Sometimes the picture wasn't showing up even after uploading it while some other times important labels were being cut off. After playing around with the constraints for almost 4 hours, I was able to figure it out. The rest was not too bad as it was very similar to lab!
 
 ## License
 
