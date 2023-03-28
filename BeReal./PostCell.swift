@@ -44,7 +44,7 @@ class PostCell: UITableViewCell {
             }
         }
         
-        caption.text = post.caption
+        caption.text = post.caption ?? ""
         
         if let date = post.createdAt {
             dateLabel.text = DateFormatter.postFormatter.string(from: date)
