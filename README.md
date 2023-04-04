@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of **PROJECT 6** implemented user stories:
 
-<img src='https://i.imgur.com/NaIGFdK.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/m9PkIpv.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!--https://i.imgur.com/OovZPyD.gif-->
 
