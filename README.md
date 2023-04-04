@@ -1,5 +1,4 @@
-
-    # Project 5 & 6 - *BeReal!*
+# Project 5 & 6 - *BeReal!*
 
 Submitted by: **Raunaq Malhotra**
 
@@ -31,12 +30,12 @@ Here's a walkthrough of **PROJECT 6** implemented user stories:
 
 <img src='https://i.imgur.com/OovZPyD.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-Here's a walkthrough of **PROJECT 5** implemented user stories:
-
-<img src='http://g.recordit.co/7pCDYchgp5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<!--Here's a walkthrough of **PROJECT 5** implemented user stories:-->
+<!---->
+<!--<img src='http://g.recordit.co/7pCDYchgp5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />-->
 
 <!-- Replace this with whatever GIF tool you used!  http://g.recordit.co/ywCkzfUaFy.gif -->
-GIF created with [RecordIt] (https://recordit.co) for MacOS
+<!--GIF created with [RecordIt] (https://recordit.co) for MacOS-->
 GIF created with [Imgur] (https://imgur.com/) for MacOS
 
 ## Notes
