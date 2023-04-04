@@ -1,45 +1,47 @@
-# Project 5 - *BeReal!*
+
+    # Project 5 & 6 - *BeReal!*
 
 Submitted by: **Raunaq Malhotra**
 
 **BeReal!** is an iOS app that lets you log in and upload pictures while also allowing you to view other users' posts! It's a sort of a clone of the actual BeReal app. Have fun and enjoy browsing pictures!
 
-Time spent: **6** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] User can register a new account
-- [x] User can log in with newly created account
-- [x] App has a feed of posts when user logs in
-- [x] User can upload a new post which takes in a picture from photo library and a caption    
+- [x] User can launch camera to take photo instead of photo library
+- [x] User session persists when application is closed and relaunched
+- [x] Users are able to log out and return to sign in page
+- [x] Users are NOT able to see other photos until they upload their own    
  
 The following **optional** features are implemented:
 
-- [ ] Users can pull to refresh their feed and see a loading indicator
-- [ ] Users can infinite-scroll in their feed to see past the 10 most recent photos
-- [ ] Users can see location and time of photo upload in the feed    
-- [x] User is able to logout
-- [x] User stays logged in when app is closed and open again    
-
+- [ ] User receive notifcation when it is time to post
+- [ ] Users can make comments and view comments in posts    
 
 The following **additional** features are implemented:
 
-- [x] Users can view the date of the picture uploaded
+- [x] Users can see blurred posts until they upload their own
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of **PROJECT 6** implemented user stories:
+
+<img src='https://i.imgur.com/OovZPyD.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Here's a walkthrough of **PROJECT 5** implemented user stories:
 
 <img src='http://g.recordit.co/7pCDYchgp5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used!  http://g.recordit.co/ywCkzfUaFy.gif -->
 GIF created with [RecordIt] (https://recordit.co) for MacOS
+GIF created with [Imgur] (https://imgur.com/) for MacOS
 
 ## Notes
 
-Setting the constraints was the biggest challenge yet again. Sometimes the picture wasn't showing up even after uploading it while some other times important labels were being cut off. After playing around with the constraints for almost 4 hours, I was able to figure it out. The rest was not too bad as it was very similar to lab!
+Not that many challenges this time round. However, one thing to note is that in the video walkthrough, for some reason, my iPhone did not record entering the password while logging in but I did have to enter in a password to log in as shown in the Project 5 walkthrough. Hope you enjoy interacting with this app!
 
 ## License
 
