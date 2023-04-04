@@ -39,9 +39,14 @@ class FeedViewController: UIViewController {
         // 2. Any properties that are Parse objects are stored by reference in Parse DB and as such need to explicitly use `include_:)` to be included in query results.
         // 3. Sort the posts by descending order based on the created at date
         
+        // Get the date for yesterday. Adding (-1) day is equivalent to subtracting a day.
+        // NOTE: `Date()` is the date and time of "right now".
+        let yesterdayDate = Calendar.current.date(byAdding: .day, value: (-1), to: Date())!
         let query = Post.query()
             .include("user")
             .order([.descending("createdAt")])
+            .where("createdAt" >= yesterdayDate) // Only include results created yesterday onwards
+            .limit(10) // Limit max number of returned posts to 10
         
         // Fetch objects (posts) defined in query (async)
         query.find { [weak self] result in
@@ -68,13 +73,6 @@ class FeedViewController: UIViewController {
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
         alertController.addAction(logOutAction)
         alertController.addAction(cancelAction)
-        present(alertController, animated: true)
-    }
-
-    private func showAlert(description: String? = nil) {
-        let alertController = UIAlertController(title: "Oops...", message: "\(description ?? "Please try again...")", preferredStyle: .alert)
-        let action = UIAlertAction(title: "OK", style: .default)
-        alertController.addAction(action)
         present(alertController, animated: true)
     }
 }

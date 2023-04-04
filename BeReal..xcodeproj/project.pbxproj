@@ -23,6 +23,7 @@
 		AF9E64F529D2A9B400CE118F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E64F429D2A9B400CE118F /* FeedViewController.swift */; };
 		AF9E64F929D2AA9600CE118F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E64F829D2AA9600CE118F /* PostCell.swift */; };
 		AF9E64FB29D2ACC900CE118F /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9E64FA29D2ACC900CE118F /* PostViewController.swift */; };
+		AFCF3A8429DBCA1F002DF254 /* ViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCF3A8329DBCA1F002DF254 /* ViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		AF9E64F429D2A9B400CE118F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		AF9E64F829D2AA9600CE118F /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		AF9E64FA29D2ACC900CE118F /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		AFCF3A8329DBCA1F002DF254 /* ViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				AF9E64E129D290CA00CE118F /* User.swift */,
 				AF9E64EC29D29B7500CE118F /* Post.swift */,
 				AF9E64EE29D29BC600CE118F /* DateFormatter+Extensions.swift */,
+				AFCF3A8329DBCA1F002DF254 /* ViewController+Extensions.swift */,
 			);
 			path = BeReal.;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				AF9E64F129D29BF600CE118F /* LoginViewController.swift in Sources */,
 				AF9E64F329D29D0800CE118F /* SignUpViewController.swift in Sources */,
+				AFCF3A8429DBCA1F002DF254 /* ViewController+Extensions.swift in Sources */,
 				AF9E64E229D290CA00CE118F /* User.swift in Sources */,
 				AF9E64EF29D29BC600CE118F /* DateFormatter+Extensions.swift in Sources */,
 				AF9E64FB29D2ACC900CE118F /* PostViewController.swift in Sources */,
@@ -331,8 +335,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LABUL5Q4J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BeReal./Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "In order to upload an image from your camera, you need to give permission to this app to access your camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,8 +364,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LABUL5Q4J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BeReal./Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "In order to upload an image from your camera, you need to give permission to this app to access your camera";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

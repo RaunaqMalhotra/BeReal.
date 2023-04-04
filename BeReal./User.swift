@@ -23,6 +23,9 @@ struct User: ParseUser {
     var createdAt: Date?
     var updatedAt: Date?
     var ACL: ParseSwift.ParseACL?
+    
+    // Custom properties.
+    var lastPostedDate: Date?
 }
 
 extension User {
