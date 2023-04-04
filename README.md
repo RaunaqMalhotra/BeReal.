@@ -28,16 +28,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of **PROJECT 6** implemented user stories:
 
-<img src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTBhNjVlY2JhMWI3Y2FiZDMyMWJmZWQyMjhlMDI2ZDNlYjY3NzY2YiZjdD1n/45lmf494WPAR8kutzJ/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+**GITHUB IS NOT ABLE TO RENDER MY GIF FROM IMGUR EVEN WHEN I COMPRESS THE QUALITY TO THE LOWEST POSSIBLE QUALITY**
 
-<!--https://i.imgur.com/OovZPyD.gif-->
+**I REQUEST YOU TO PLEASE USE THIS LINK TO ACCESS THE GIF SUBMISSION. THANK YOU**
+
+https://i.imgur.com/OovZPyD.gif
+
+<img src='https://i.imgur.com/OovZPyD.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!--Here's a walkthrough of **PROJECT 5** implemented user stories:-->
 <!---->
 <!--<img src='http://g.recordit.co/7pCDYchgp5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />-->
 
-<!-- Replace this with whatever GIF tool you used!  http://g.recordit.co/ywCkzfUaFy.gif -->
-<!--GIF created with [RecordIt] (https://recordit.co) for MacOS-->
 GIF created with [Imgur](https://imgur.com/) for MacOS
 
 ## Notes
